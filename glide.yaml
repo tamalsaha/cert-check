@@ -1,0 +1,8 @@
+package: github.com/tamalsaha/cert-check
+import:
+- package: github.com/appscode/kutil
+  version: release-9.0
+- package: github.com/spf13/afero
+  version: v1.2.0
+- package: k8s.io/client-go
+  version: v9.0.0

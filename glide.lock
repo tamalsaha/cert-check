@@ -1,0 +1,28 @@
+hash: 555252fdf8afe14e8f03cd53243db29493590dbbd0fd817cb52419d916c914fb
+updated: 2018-12-26T01:27:29.929894227-08:00
+imports:
+- name: github.com/appscode/go
+  version: 584aaa73af837f112c0a471be398ea837341c330
+  subpackages:
+  - net
+  - sets
+- name: github.com/appscode/kutil
+  version: d9fb2e606bf2c196a8cd8cff13097f531d686a44
+  subpackages:
+  - tools/certstore
+- name: github.com/pkg/errors
+  version: 645ef00459ed84a119197bfb8d8205042c6df63d
+- name: github.com/spf13/afero
+  version: a5d6946387efe7d64d09dcba68cdd523dc1273a3
+  subpackages:
+  - mem
+- name: golang.org/x/text
+  version: b19bf474d317b857955b12035d2c5acb57ce8b01
+  subpackages:
+  - transform
+  - unicode/norm
+- name: k8s.io/client-go
+  version: 1638f8970cefaa404ff3a62950f88b08292b2696
+  subpackages:
+  - util/cert
+testImports: []
